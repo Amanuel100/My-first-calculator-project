@@ -1,0 +1,61 @@
+body {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#calculator {
+    width: 420px;
+    border-radius: 10px;
+    background-color: silver;
+    margin-top: 30px;
+    box-shadow: 0 0 50px black;
+}
+
+#keys {
+    background-color: silver;
+    padding: 22px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    border: 5px groove golden;
+    height: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    font-variant-numeric: slashed-zero;
+    background-color: rgb(184, 168, 27);
+}
+
+.opretar {
+    background-color: rgb(128, 126, 126);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(255, 0, 0, 0.4) 0px 2px 4px, rgba(255, 0, 0, 0.3) 0px 7px 13px -3px, rgba(255, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.c {
+    background-color: red;
+    color: white;
+}
+
+.equal {
+    background-color: green;
+    width: 96%;
+}
